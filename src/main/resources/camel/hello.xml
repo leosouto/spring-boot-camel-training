@@ -1,5 +1,5 @@
 <routes xmlns="http://camel.apache.org/schema/spring">
-  <route id="hello">
+  <route id="hello-xml">
     <from uri="timer:hello?period={{helloPeriod}}"/>
     <log message="Hello from XML DSL!" />
   </route>
